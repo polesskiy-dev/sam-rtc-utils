@@ -1,4 +1,6 @@
-# Microchip SAM devices RTC utils library
+# RTC Utils for Microchip SAM family microcontrollers 
+Tested on XC32 compiler
+
 Tested on ATSAMD21E17D microcontroller
 
-[See docs here](html/sam-rtc-utils_8h.html)
+[See Dyoxygen docs here](sam-rtc-utils_8c.html)

@@ -3,8 +3,7 @@
  * @author: apolisskyi
  *
  * @date August 14, 2022, 9:31 PM
- * @mainpage
- * @see sam-rtc-utils.h
+ *
  * @brief Microchip SAM devices RTC utils library. Tested on ATSAMD21E17D microcontroller
  */
 
