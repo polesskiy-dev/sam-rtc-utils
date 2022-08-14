@@ -1,6 +1,9 @@
 # RTC Utils for Microchip SAM family microcontrollers 
-Tested on XC32 compiler
 
-Tested on ATSAMD21E17D microcontroller
+Provides useful functions to work with *Real Time Clock* microcontroller module:
 
-[See Dyoxygen docs here](sam-rtc-utils_8c.html)
+* Get current time during compilation
+
+Tested on Microchip (Atmel) ATSAMD21E17D microcontroller with XC32 compiler
+
+[See Main Dyoxygen docs here](https://polesskiy-dev.github.io/sam-rtc-utils/sam-rtc-utils_8c.html)
