@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>SAM RTC Utils: RTC Utils for Microchip SAM family microcontrollers</title>
+<title>SAM RTC Utils: sam-rtc-utils.X/sam-rtc-utils.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -47,7 +47,6 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-</div><!-- top -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -62,15 +61,61 @@ $(function() {
 </iframe>
 </div>
 
-<div class="PageDoc"><div class="header">
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_de49cf8ce67e2c38b6819593fd733124.html">sam-rtc-utils.X</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">RTC Utils for Microchip SAM family microcontrollers </div>  </div>
+<div class="title">sam-rtc-utils.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Tested on XC32 compiler</p>
-<p>Tested on ATSAMD21E17D microcontroller</p>
-<p><a href="sam-rtc-utils_8c.html">See Dyoxygen docs here</a> </p>
-</div></div><!-- PageDoc -->
+
+<p>Microchip SAM devices RTC utils library. Tested on ATSAMD21E17D microcontroller.  
+<a href="#details">More...</a></p>
+
+<p><a href="sam-rtc-utils_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a3a9916b92e89cb0e46b6e07ec0629506"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam-rtc-utils_8h.html#a3a9916b92e89cb0e46b6e07ec0629506">getCurrentTimeTm</a> (struct tm *curTimeTm)</td></tr>
+<tr class="memdesc:a3a9916b92e89cb0e46b6e07ec0629506"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current time in passed tm struct from "__DATE__" "__TIME__" compiler macros, see &lt;time.h&gt; for tm struct description.  <a href="sam-rtc-utils_8h.html#a3a9916b92e89cb0e46b6e07ec0629506">More...</a><br /></td></tr>
+<tr class="separator:a3a9916b92e89cb0e46b6e07ec0629506"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Microchip SAM devices RTC utils library. Tested on ATSAMD21E17D microcontroller. </p>
+<dl class="section author"><dt>Author</dt><dd>: apolisskyi</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>August 14, 2022, 9:31 PM </dd></dl>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="a3a9916b92e89cb0e46b6e07ec0629506"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a9916b92e89cb0e46b6e07ec0629506">&#9670;&nbsp;</a></span>getCurrentTimeTm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void getCurrentTimeTm </td>
+          <td>(</td>
+          <td class="paramtype">struct tm *&#160;</td>
+          <td class="paramname"><em>curTimeTm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get current time in passed tm struct from "__DATE__" "__TIME__" compiler macros, see &lt;time.h&gt; for tm struct description. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">curTimeTm</td><td>tm struct to store current time </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
